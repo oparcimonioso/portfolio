@@ -89,8 +89,9 @@ body {
     max-width: 50%; /* Faz a imagem ocupar toda a largura do bloco */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 8px; /* Bordas arredondadas para a imagem */
-    margin-block: auto; /* Centraliza a imagem verticalmente dentro do bloco */
+    margin-block: center; /* Centraliza a imagem verticalmente dentro do bloco */
     align-self: center; /* Centraliza a imagem horizontalmente dentro do bloco */
+    
 }
 
 /* Rodapé */
