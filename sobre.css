@@ -82,7 +82,8 @@ body {
     margin: 10px; /* Margem */
     min-width: 200px; /* Largura mínima */
     max-width: 600px; /* Largura máxima */
-    height: 400px; /* Altura automática */
+    min-height: 400px; /* Altura mínima */
+    max-height: 600px; /* Altura máxima */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     display: flex; /* Alinha os elementos dentro do bloco */
     flex-direction: column; /* Empilha título e texto */
