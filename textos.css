@@ -4,13 +4,13 @@ body {
     font-family: 'Poppins', sans-serif; /* Fonte Poppins */
     margin: 0; /* Margem */
     padding: 0; /* Espaço */
-    background-color: #f8f8f8; /* Cor de fundo cinza */
+    background-color: #2C2C2C; /* Cor de fundo cinza */
 }
 
 /* Menu */
 
 .menu {
-    background-color: #b080b5; /* Cor roxa suave */
+    background: linear-gradient(#2C2C2C, #333333); /* Cor roxa suave */
     padding: 10px; /* Espaço interno */
 }
 
@@ -39,7 +39,7 @@ body {
 
 .menu a:hover {
     background-color: #f0e0f5; /* Cor da caixinha ao passar o mouse */
-    color: #b080b5; /* Cor do texto ao passar o mouse */
+    color: #2C2C2C; /* Cor do texto ao passar o mouse */
 }
 
 /* Corpo da Página */
@@ -55,7 +55,7 @@ body {
 
 .block {
     background-color: white; /* Fundo branco */
-    border: 2px solid #b080b5; /* Borda roxa */
+    border: 2px solid #2C2C2C; /* Borda roxa */
     color: #333; /* Cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 30px; /* Espaço interno */
@@ -74,7 +74,7 @@ body {
 
 .bloco2 {
     background-color: white; /* Fundo branco */
-    border: 2px solid #b080b5; /* Borda roxa */
+    border: 2px solid #2C2C2C; /* Borda roxa */
     color: #333; /* Cor do texto */
     text-align: left; /* Centraliza o texto */
     padding: 30px; /* Espaço interno */
@@ -91,14 +91,14 @@ body {
 }
 
 .estilizada {
-    color: #b080b5; /* Altere para a cor que preferir */
+    color: #2C2C2C; /* Altere para a cor que preferir */
     font-weight: bold; /* Negrito */
 }
 
 .block-title {
     margin-top: 30px; /* Espaçamento entre título e corpo */
     font-size: 20px; /* Tamanho da fonte */
-    color: #b080b5; /* Cor roxa */
+    color: #2C2C2C; /* Cor roxa */
     text-align: center; /* Centraliza o texto */
     order: 0; /* Faz o título aparecer no topo */
 }
@@ -121,8 +121,12 @@ body {
 }
 
 .titulo {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     font-size: 36px; /* Tamanho da fonte */
-    color: #b080b5; /* Cor roxa */
+    color: #ffffff; /* Cor roxa */
     text-align: center; /* Centraliza o texto */
     margin-top: 30px; /* Espaçamento superior */
     margin-bottom: 20px; /* Espaçamento inferior */
@@ -130,8 +134,12 @@ body {
 }
 
 .subtitulo {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     font-size: 24px; /* Tamanho da fonte */
-    color: #b080b5; /* Cor roxa */
+    color: #ffffff; /* Cor roxa */
     text-align: center; /* Centraliza o texto */
     margin-top: 30px; /* Espaçamento superior */
     margin-bottom: 20px; /* Espaçamento inferior */
@@ -141,7 +149,7 @@ body {
 
 /* Rodapé */
 .footer {
-    background-color: #b080b5; /* Cor roxa suave */
+    background: linear-gradient(#2C2C2C, #333333); /* Cor roxa suave */
     color: white; /* Cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 20px 0; /* Espaço interno */

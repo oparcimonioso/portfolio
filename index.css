@@ -4,13 +4,13 @@ body {
     font-family: 'Poppins', sans-serif; /* Fonte Poppins */
     margin: 0; /* Margem */
     padding: 0; /* Espaço */
-    background-color: #f8f8f8; /* Cor de fundo cinza */
+    background-color: #2C2C2C; /* Cor de fundo cinza */
 }
 
 /* Menu */
 
 .menu {
-    background-color: #b080b5; /* Cor roxa suave */
+    background: linear-gradient(#2C2C2C, #333333); /* Cor roxa suave */
     padding: 10px; /* Espaço interno */
 }
 
@@ -39,7 +39,7 @@ body {
 
 .menu a:hover {
     background-color: #f0e0f5; /* Cor da caixinha ao passar o mouse */
-    color: #b080b5; /* Cor do texto ao passar o mouse */
+    color: #2C2C2C; /* Cor do texto ao passar o mouse */
 }
 
 /* Home */
@@ -54,7 +54,7 @@ body {
 
 .block {
     background-color: white; /* Fundo branco */
-    border: 2px solid #b080b5; /* Borda roxa */
+    border: 2px solid #2C2C2C; /* Borda roxa */
     color: #333; /* Cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 15px; /* Espaço interno */
@@ -73,7 +73,7 @@ body {
 .block-title {
     margin-bottom: 5px; /* Espaçamento entre título e corpo */
     font-size: 20px; /* Tamanho da fonte */
-    color: #b080b5; /* Cor roxa */
+    color: #2C2C2C; /* Cor roxa */
     text-align: center; /* Centraliza o texto */
     order: -1; /* Faz o título aparecer no topo */
 }
@@ -96,7 +96,7 @@ body {
 
 /* Rodapé */
 .footer {
-    background-color: #b080b5; /* Cor roxa suave */
+    background: linear-gradient(#333333,#2C2C2C); /* Cor roxa suave */
     color: white; /* Cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 20px 0; /* Espaço interno */
