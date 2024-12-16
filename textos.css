@@ -62,32 +62,14 @@ body {
     border-radius: 8px; /* Borda arredondada */
     flex: 1; /* Divide o espacamento entre os blocos */
     margin: 10px; /* Margem */
-    min-width: 400px; /* Largura mínima */
-    max-width: 250px; /* Largura máxima */
+    min-width: 250px; /* Largura mínima */
+    max-width: 450px; /* Largura máxima */
     height: 400px; /* Altura automática */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     display: flex; /* Alinha os elementos dentro do bloco */
     flex-direction: column; /* Empilha título e texto */
     justify-content: space-between; /* Espaça os elementos dentro do bloco */
     overflow-y: scroll; /* Barra de rolagem vertical */
-}
-
-.bloco2 {
-    background-color: white; /* Fundo branco */
-    border: 2px solid #2C2C2C; /* Borda roxa */
-    color: #333; /* Cor do texto */
-    text-align: left; /* Centraliza o texto */
-    padding: 30px; /* Espaço interno */
-    border-radius: 8px; /* Borda arredondada */
-    flex: 1; /* Divide o espacamento entre os blocos */
-    margin: 10px; /* Margem */
-    min-width: 200px; /* Largura mínima */
-    max-width: 600px; /* Largura máxima */
-    height: 400px; /* Altura automática */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-    display: flex; /* Alinha os elementos dentro do bloco */
-    flex-direction: column; /* Empilha título e texto */
-    justify-content: space-between; /* Espaça os elementos dentro do bloco */
 }
 
 .estilizada {
