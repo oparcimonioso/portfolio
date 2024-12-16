@@ -82,12 +82,12 @@ body {
     margin: 10px; /* Margem */
     min-width: 200px; /* Largura mínima */
     max-width: 600px; /* Largura máxima */
-    min-height: 400px; /* Altura mínima */
-    max-height: 600px; /* Altura máxima */
+    height: 400px; /* Altura automática */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     display: flex; /* Alinha os elementos dentro do bloco */
     flex-direction: column; /* Empilha título e texto */
     justify-content: space-between; /* Espaça os elementos dentro do bloco */
+    overflow-y: scroll; /* Barra de rolagem vertical */
 }
 
 .estilizada {
