@@ -1,71 +1,173 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Guilherme Nascimento - Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-        <script src="index.js" async defer></script>
-    </head>
-    <body>
-        <!-- Menu -->
-        <nav class="menu">
-            <button class="menu-button" aria-label="Abrir menu">☰</button>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="textos.html">Textos</a></li>
-                <li><a href="artes.html">Artes</a></li>
-                <li><a href="contato.html">Contato</a></li>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guilherme Nascimento - Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho e Menu -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Guilherme Nascimento</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Alternar navegação"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="textos.html">Textos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="artes.html">Artes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
             </ul>
-        </nav>
-        <!-- Corpo da Página -->
-        <section id="home">
-            <div class="container">
-                <div class="block">
-                    <h3 class="block-title">Sobre Mim</h3>
-                    <a href="sobre.html">
-                    <img src="./imagens/sobre mim.png" alt="Sobre Mim" class="block-image">
-                    </a>
-                    <p class="block-text">Minha apresentação com detalhes sobre minha formação, habilidades y otras cositas mas</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <br><br><br><br>
+    <!-- Conteúdo Principal -->
+    <main class="container my-5">
+      <section id="home">
+        <div class="row g-4">
+          <!-- Card: Sobre Mim -->
+          <div class="col-sm-6 col-lg-3">
+            <a href="sobre.html" class="text-decoration-none">
+              <div class="card h-100 bg-transparent border-0">
+                <img
+                  src="./imagens/sobre%20mim.png"
+                  alt="Sobre Mim"
+                  class="img-fluid w-50 d-block mx-auto mt-3"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Sobre Mim</h5>
+                  <p class="card-text">
+                    Minha apresentação com detalhes sobre minha formação,
+                    habilidades e outras cositas.
+                  </p>
                 </div>
-                <div class="block">
-                    <h3 class="block-title">Meus Textos</h3>
-                    <a href="textos.html">
-                    <img src="./imagens/textos.png" alt="Meus Textos" class="block-image">
-                    </a>
-                    <p class="block-text">Textos feitos por mim como: matérias, artigos e etc...</p>
+              </div>
+            </a>
+          </div>
+          <!-- Card: Meus Textos -->
+          <div class="col-sm-6 col-lg-3">
+            <a href="textos.html" class="text-decoration-none">
+              <div class="card h-100 bg-transparent border-0">
+                <img
+                  src="./imagens/textos.png"
+                  alt="Meus Textos"
+                  class="img-fluid w-50 d-block mx-auto mt-3"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Meus Textos</h5>
+                  <p class="card-text">
+                    Textos feitos por mim, como matérias, artigos, etc.
+                  </p>
                 </div>
-                <div class="block">
-                    <h3 class="block-title">Minhas Artes</h3>
-                    <a href="artes.html">
-                    <img src="./imagens/artes.png" alt="Minhas Artes" class="block-image">
-                    </a>
-                    <p class="block-text">Algumas coisas que já produzi para alguns projetos pessoais meus</p>
+              </div>
+            </a>
+          </div>
+          <!-- Card: Minhas Artes -->
+          <div class="col-sm-6 col-lg-3">
+            <a href="artes.html" class="text-decoration-none">
+              <div class="card h-100 bg-transparent border-0">
+                <img
+                  src="./imagens/artes.png"
+                  alt="Minhas Artes"
+                  class="img-fluid w-50 d-block mx-auto mt-3"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Minhas Artes</h5>
+                  <p class="card-text">
+                    Alguns projetos pessoais e produções artísticas.
+                  </p>
                 </div>
-                <div class="block">
-                    <h3 class="block-title">Fale Comigo</h3>
-                    <a href="contato.html">
-                    <img src="./imagens/contato.png" alt="Fale Comigo" class="block-image">
-                    </a>
-                    <p class="block-text">Formas de você entrar em contato comigo</p>
+              </div>
+            </a>
+          </div>
+          <!-- Card: Fale Comigo -->
+          <div class="col-sm-6 col-lg-3">
+            <a href="contato.html" class="text-decoration-none">
+              <div class="card h-100 bg-transparent border-0">
+                <img
+                  src="./imagens/contato.png"
+                  alt="Fale Comigo"
+                  class="img-fluid w-50 d-block mx-auto mt-3"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Fale Comigo</h5>
+                  <p class="card-text">
+                    Formas de você entrar em contato comigo.
+                  </p>
                 </div>
-            </div>
-        </section>
-        <br>
-        <br>
-        <br>
-        <!-- Rodapé -->
-        <footer class="footer">
-            <p>&copy; Guilherme Nascimento 2024 - Todos os direitos reservados</p>
-            <div class="footer-links">
-                <a href="https://www.instagram.com/guilherme.richardy" target="_blank">Instagram</a>
-                <a href="https://wa.me/5581992571883" target="_blank">WhatsApp</a>
-                <a href="mailto:contatoparcimonioso@gmail.com" target="_blank">Email</a>
-            </div>
-        </footer>
-    </body>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <br><br><br>
+    <!-- Rodapé -->
+    <footer class="bg-dark text-light text-center py-3">
+      <div class="container">
+        <p class="mb-1">
+          &copy; Guilherme Nascimento 2024 - Todos os direitos reservados
+        </p>
+        <div>
+          <a
+            href="https://www.instagram.com/guilherme.richardy"
+            target="_blank"
+            class="text-light me-3"
+            >Instagram</a
+          >
+          <a
+            href="https://wa.me/5581992571883"
+            target="_blank"
+            class="text-light me-3"
+            >WhatsApp</a
+          >
+          <a
+            href="mailto:contatoparcimonioso@gmail.com"
+            target="_blank"
+            class="text-light"
+            >Email</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle (com Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
